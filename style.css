@@ -8,7 +8,6 @@ body {
 }
 
 /* COLORS */
-
 :root {
     --primary-color: #d4dada;
     --secondary-color: #4a4c66;
@@ -75,4 +74,13 @@ body {
 
 .bg-darker {
     background-color: #171830;
+}
+
+.btn-more {
+    border: 1px solid var(--fade-secondary-color);
+    color: var(--fade-secondary-color);
+}
+
+.btn-more:hover {
+    color: #fff;
 }
